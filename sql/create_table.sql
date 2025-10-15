@@ -1,12 +1,12 @@
 # 建表脚本
-# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
-# @from <a href="https://yupi.icu">编程导航知识星球</a>
+# @author <a href="https://github.com/liAeromtrich">Aeromtrich</a>
+#  <a href="https://Aeromtrich.icu"></a>
 
 -- 创建库
-create database if not exists yubi;
+create database if not exists bi;
 
 -- 切换库
-use yubi;
+use bi;
 
 -- 用户表
 create table if not exists user
