@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 class AiManagerTest {
 
     @Resource
-    private AiManager aiManager;
+    private OldManager aiManager;
 
     @Test
     void doChat() {

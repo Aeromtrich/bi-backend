@@ -1,10 +1,11 @@
 package com.google.springbootinit.bizmq;
 
+import com.google.springbootinit.manager.AiManager;
 import com.rabbitmq.client.Channel;
 import com.google.springbootinit.common.ErrorCode;
 import com.google.springbootinit.constant.CommonConstant;
 import com.google.springbootinit.exception.BusinessException;
-import com.google.springbootinit.manager.AiManager;
+import com.google.springbootinit.manager.OldManager;
 import com.google.springbootinit.model.entity.Chart;
 import com.google.springbootinit.service.ChartService;
 import lombok.SneakyThrows;
